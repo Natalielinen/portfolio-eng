@@ -1,0 +1,23 @@
+@import "src/styles/config";
+
+.socialIcons {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  a {
+    padding: 0.4rem;
+    @include transition-ease;
+
+    svg {
+      width: 32px;
+      height: 32px;
+    }
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
