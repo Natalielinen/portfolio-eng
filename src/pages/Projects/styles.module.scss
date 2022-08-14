@@ -1,10 +1,10 @@
 @import "src/styles/config";
 
-.about {
+.projects {
   padding-bottom: 2rem;
 
   .bioImage {
-    height: 50vh;
+    height: 30vh;
     width: 100%;
     background:
             linear-gradient(
@@ -19,23 +19,16 @@
     align-items: center;
     justify-content: flex-end;
 
-    p {
-      margin-bottom: 2rem;
-    }
-
-  }
-
-  .bio {
-    width: 80%;
-    text-align: center;
-
     .text-secondary {
-      padding-bottom: 1rem;
+      font-size: 2rem;
+      margin-bottom: 2rem;
 
     }
+
   }
 
-  .jobs {
+
+  .items {
     width: 60vw;
     margin: 2rem auto 0 auto;
     display: grid;
@@ -52,10 +45,34 @@
 }
 
 @include media-md {
-  .about {
-    .bio {
-      font-size: 1.5rem;
+
+  .projects {
+    .bioImage {
+      height: 40vh;
+    }
+    .items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .text-secondary {
+      font-size: 3rem;
+    }
+  }
+}
+
+@include media-lg {
+  .projects {
+    .items {
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 
+}
+
+@include media-xl {
+  .projects {
+    .bioImage {
+      height: 50vh;
+    }
+
+  }
 }
