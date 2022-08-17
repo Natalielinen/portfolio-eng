@@ -37,7 +37,7 @@ const About = () => {
             <section className={styles.about}>
                 <div className={styles.bioImage}>
                     <div className={styles.bio}>
-                        <h2>About</h2>
+                        <h2 className='textSecondary'>About</h2>
                         <p>Frontend developer
                             <br />
                                 <span className={styles.experience}>Total experience <span>1 year</span> </span>

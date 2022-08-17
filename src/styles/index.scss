@@ -23,7 +23,15 @@ a {
   text-decoration: none;
 }
 
-.text-secondary {
+.textSecondary {
   color: $secondary-color;
 }
+
+@include media-md {
+  .textSecondary {
+    font-size: 3rem;
+  }
+}
+
+
 

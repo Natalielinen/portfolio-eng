@@ -115,7 +115,7 @@ const Projects = () => {
         <main>
             <section className={styles.projects}>
                 <div className={styles.bioImage}>
-                    <h1 className={styles.textSecondary}>My Projects</h1>
+                    <h1 className='textSecondary'>My Projects</h1>
                 </div>
                 <div className={styles.items}>
                     {

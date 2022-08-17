@@ -1,0 +1,76 @@
+@import "src/styles/config";
+
+.contacts {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, rgba($primary-color, 0.9),
+          rgba($primary-color, 0.3)
+  ),
+  url('/assets/bg_01.jpg') center top no-repeat;
+  background-size: cover;
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .contactsList {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    font-size: 1.5rem;
+
+    svg {
+      margin-right: 10px;
+    }
+
+    .contact {
+      margin-top: 10px;
+      a {
+        color: $secondary-color !important;
+      }
+
+    }
+
+  }
+
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  position: initial;
+  margin-top: 2rem;
+}
+
+@include media-md {
+  .contacts {
+    .contactsList {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+}
+
+@include media-lg {
+  .contacts {
+    .contactsList {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+}
+
+@include media-sm {
+  .contacts {
+    .contactsList {
+      margin-left: 70px;
+      font-size: 1.3rem;
+    }
+  }
+
+}
