@@ -18,7 +18,7 @@ import calculatorImg from '../assets/calculator.png';
 
 export const jobs = [
     {
-        period: 'february 2022 to present',
+        period: 'february 2022 - present',
         company: 'Zen Code',
         position: 'frontend developer',
         functions: 'Creating and maintaining front-end code. Assisting the development team in debugging and ' +

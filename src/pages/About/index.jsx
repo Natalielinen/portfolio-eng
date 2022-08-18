@@ -20,7 +20,7 @@ const About = () => {
                 </div>
                 <div className={styles.jobs}>
                     {
-                        jobs.map(job => <Job period={job.period} company={job.company} functions={job.functions}
+                        jobs.map(job => <Job key={job.period} period={job.period} company={job.company} functions={job.functions}
                                              position={job.position}/>)
                     }
                 </div>

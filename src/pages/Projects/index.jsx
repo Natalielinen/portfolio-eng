@@ -13,6 +13,7 @@ const Projects = () => {
                 <div className={styles.items}>
                     {
                         projects.map(project => <Project
+                            key={project.githubLink}
                             githubLink={project.githubLink}
                             imageAlt={project.imageAlt}
                             imageSrc={project.imageSrc}

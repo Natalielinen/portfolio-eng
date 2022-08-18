@@ -9,7 +9,7 @@ const Contacts = () => {
                 <h2>Contacts</h2>
                 <div className={styles.contactsList}>
                     {
-                        contactsList.map(item => <div className={styles[item.contactClass]}>
+                        contactsList.map(item => <div key={item.contactType} className={styles[item.contactClass]}>
 
                             {item.icon}
                             <span>{item.contactType}</span>
