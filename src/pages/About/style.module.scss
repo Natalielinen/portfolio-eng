@@ -6,13 +6,12 @@
   .bioImage {
     height: 50vh;
     width: 100%;
-    background:
-            linear-gradient(
-                            to right,
-                            rgba($primary-color, 0.9),
-                            rgba($primary-color, 0.3)
-            ),
-            url("/assets/bg_01.jpg") center top no-repeat;
+    background: linear-gradient(
+                    to right,
+                    rgba($primary-color, 0.9),
+                    rgba($primary-color, 0.3)
+    ),
+    url("/assets/bg_01.jpg") center top no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -22,7 +21,6 @@
     p {
       margin-bottom: 2rem;
     }
-
   }
 
   .bio {
@@ -31,7 +29,6 @@
 
     .text-secondary {
       padding-bottom: 1rem;
-
     }
   }
 
@@ -41,14 +38,12 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
-
   }
 
   .social-icons {
     display: flex;
     flex-direction: column;
   }
-
 }
 
 @include media-md {
@@ -57,5 +52,4 @@
       font-size: 1.5rem;
     }
   }
-
 }

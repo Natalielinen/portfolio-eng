@@ -1,37 +1,6 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import {BsEnvelopeFill, BsHouseFill, BsPhone, BsTelegram} from 'react-icons/bs';
-
-const contactsList = [
-    {
-        contactClass: 'email',
-        icon: <BsEnvelopeFill />,
-        contactType: 'E-mail',
-        contact: 'nataliech0409@gmail.com',
-        linkType: 'mailto:'
-    },
-    {
-        contactClass: 'phone',
-        icon: <BsPhone />,
-        contactType: 'Phone',
-        contact: '+7-953-720-82-44',
-        linkType: 'tel:'
-    },
-    {
-        contactClass: 'address',
-        icon: <BsHouseFill />,
-        contactType: 'Address',
-        contact: 'Russia, Michurinsk',
-        linkType: ''
-    },
-    {
-        contactClass: 'telegram',
-        icon: <BsTelegram />,
-        contactType: 'Telegram',
-        contact: 'https://t.me/Natalielinen',
-        linkType: ''
-    }
-]
+import {contactsList} from '../../data';
 
 const Contacts = () => {
     return (
@@ -53,7 +22,7 @@ const Contacts = () => {
 
             </section>
         </main>
-    )
-}
+    );
+};
 
 export default Contacts;

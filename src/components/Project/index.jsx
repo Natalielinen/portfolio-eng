@@ -7,11 +7,11 @@ const Project = ({imageSrc, imageAlt, previewLink, githubLink}) => {
         <div className={styles.project}>
             <img src={imageSrc} alt={imageAlt}/>
             <div className={styles.projectBtns}>
-                <a className={styles.btn} href={previewLink}  target='_blank' rel="noopener noreferrer">
-                    <AiFillEye /> Preview
+                <a className={styles.btn} href={previewLink} target="_blank" rel="noopener noreferrer">
+                    <AiFillEye/> Preview
                 </a>
-                <a className={styles.btn} href={githubLink}  target='_blank' rel="noopener noreferrer">
-                    <AiFillGithub /> Code
+                <a className={styles.btn} href={githubLink} target="_blank" rel="noopener noreferrer">
+                    <AiFillGithub/> Code
                 </a>
             </div>
 
