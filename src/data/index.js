@@ -50,28 +50,28 @@ export const contactsList = [
         icon: <BsEnvelopeFill/>,
         contactType: 'E-mail',
         contact: 'nataliech0409@gmail.com',
-        linkType: 'mailto:'
+        link: 'mailto:nataliech0409@gmail.com'
     },
     {
         contactClass: 'phone',
         icon: <BsPhone/>,
         contactType: 'Phone',
         contact: '+7-953-720-82-44',
-        linkType: 'tel:'
+        link: 'tel:+7-953-720-82-44'
     },
     {
         contactClass: 'address',
         icon: <BsHouseFill/>,
         contactType: 'Address',
         contact: 'Russia, Michurinsk',
-        linkType: ''
+        link: 'https://goo.gl/maps/utS3n3tWwiTJrGbo8'
     },
     {
         contactClass: 'telegram',
         icon: <BsTelegram/>,
         contactType: 'Telegram',
-        contact: 'https://t.me/Natalielinen',
-        linkType: ''
+        contact: '@Natalielinen',
+        link: 'https://t.me/Natalielinen'
     }
 ];
 

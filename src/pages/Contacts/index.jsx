@@ -14,7 +14,7 @@ const Contacts = () => {
                             {item.icon}
                             <span>{item.contactType}</span>
                             <div className={styles.contact}>
-                                <a href={`${item.linkType}${item.contact}`}>{item.contact}</a>
+                                <a href={item.link} target="_blank">{item.contact}</a>
                             </div>
                         </div>)
                     }

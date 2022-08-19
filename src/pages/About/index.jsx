@@ -11,11 +11,10 @@ const About = () => {
                 <div className={styles.bioImage}>
                     <div className={styles.bio}>
                         <h2 className="textSecondary">About</h2>
-                        <p>Frontend developer
-                            <br/>
-                            <span className={styles.experience}>Total experience <span>1 year</span> </span>
-                        </p>
-                        <p>Skills: HTML, CSS, Pug, SCSS, JavaScript, React, Redux</p>
+                        <p>Frontend developer</p>
+                        <p>Main skills: JavaScript, TypeScript, React, Redux Toolkit, HTML5, CSS3, JSON, REST API</p>
+                        <p>Discipline and self-taught frontend developer with 1+ year of experience. Authoring and designing
+                            few personal projects. Eager to learn new technologies and improve skills.</p>
                     </div>
                 </div>
                 <div className={styles.jobs}>
