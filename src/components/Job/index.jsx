@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style.module.scss';
 
-const Job = ({period, company, position, functions}) => {
+const Job = ({period, company, position, functions, stack}) => {
 
     return (
         <div className={styles.job}>
@@ -9,6 +9,7 @@ const Job = ({period, company, position, functions}) => {
             <h3>{company}</h3>
             <h6>{position}</h6>
             <p>{functions}</p>
+            <p>{stack}</p>
         </div>
     )
 }

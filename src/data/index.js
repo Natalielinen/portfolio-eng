@@ -15,34 +15,70 @@ import tributePageImg from '../assets/tribute-page.png';
 import htmlDocImg from '../assets/html-doc.png';
 import landingImg from '../assets/landing.png';
 import calculatorImg from '../assets/calculator.png';
+import makeAWishImg from '../assets/make-a-wish.png';
 
 export const jobs = [
     {
         period: 'february 2022 - present',
         company: 'Zen Code',
         position: 'frontend developer',
-        functions: 'Creating and maintaining front-end code. Assisting the development team in debugging and ' +
-            'troubleshooting CMS-system. Working in an Agile, collaborative environment to receive design requirements ' +
-            'and test application. Collaborating with stakeholders during development processes to confirm creative' +
-            ' proposals and design best practices. Working cooperatively with analytics and design team in deadline-driven ' +
-            'environment. Redesining and optimizing old code to enhance application performance and code readability. ' +
-            ' Performing user experience quality assurance testing to identify and remedy shortcomings. '
+        functions: `Work on the front-end part of the project for managing enterprise processes in a team of 5 people. 
+        Main tasks: developing an interface and implementing business logic, finding and fixing bugs, filling a library 
+        of components, developing and editing modules for various forms, code refactoring.`,
+        stack: 'React, MobX, LESS, DevExtreme, Ant Design, JSDoc, PropTypes'
     },
     {
         period: 'november 2021 - february 2022',
         company: 'Zen Code',
         position: 'frontend developer intern',
-        functions: 'Collaborated with other interns and team lead to create study projects. Designed, wrote, modified,' +
-            ' integrated, and tested website-related code. Provided daily plans and reports'
+        functions: `Development of training projects in a team of trainees under the guidance of a mentor. 
+        Main tasks: development from scratch of the application interface, development and implementation of individual reusable react components.`,
+        stack: 'React, React Hooks, React Context, LESS, JavaScript (ES6+)'
     },
     {
-        period: 'june 2021 - september 2021',
+        period: 'november 2020 - october 2021',
+        company: 'Cook-Book Project (contract, private contractor)',
+        position: 'full stack developer',
+        functions: `Development of an application for storing and managing recipes in a team of three people. 
+        Main tasks: development of the backend part of the application from scratch, participation in the development
+         of the client part of the application, setting tasks for other team members and monitoring the execution.`,
+        stack: 'React, React Hooks, Redux Toolkit, SASS, TypeScript, JavaScript (ES6+), Express, MongoDB, Mongoose, Formik, YUP'
+    },
+    {
+        period: 'august 2020 - october 2020',
         company: 'KodeFirst',
         position: 'frontend developer intern',
-        functions: 'Assisted senior developers in the layout of various interface elements. Refactored and debugged ' +
-            'old code. Studied and applied new technologies. Participated in code reviews and provided daily reports'
+        functions: `Participation in the development of ui-kit for the application in the team of interns. 
+        Main tasks: development of separate parts and components for the application, study of technologies necessary for development.`,
+        stack: 'Pug, SASS, Webpack, JavaScript (ES6+)'
     }
 ];
+
+export const skills = [
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'React',
+    'React Hooks',
+    'React Context',
+    'React Table',
+    'React Router',
+    'Redux',
+    'Redux toolkit',
+    'MobX',
+    'LESS',
+    'SASS',
+    'Formik',
+    'YUP',
+    'DevExtreme',
+    'Ant Design',
+    'JSDoc',
+    'Webpack',
+    'PropTypes',
+    'Express',
+    'MongoDB',
+    'Mongoose',
+    'Pug'
+]
 
 export const contactsList = [
     {
@@ -77,10 +113,10 @@ export const contactsList = [
 
 export const projects = [
     {
-        imageSrc: cookBookImg,
-        imageAlt: 'Cook-book',
-        previewLink: 'https://github.com/Natalielinen/cook-book',
-        githubLink: 'https://github.com/Natalielinen/cook-book'
+        imageSrc: makeAWishImg,
+        imageAlt: 'Make a wish',
+        previewLink: 'https://make-a-wish-lilac.vercel.app/',
+        githubLink: 'https://github.com/Natalielinen/make-a-wish'
     },
     {
         imageSrc: CSSSGImg,
