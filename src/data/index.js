@@ -115,7 +115,7 @@ export const projects = [
     {
         imageSrc: makeAWishImg,
         imageAlt: 'Make a wish',
-        previewLink: 'https://make-a-wish-lilac.vercel.app/',
+        previewLink: 'https://make-a-wish-jkd7.vercel.app/',
         githubLink: 'https://github.com/Natalielinen/make-a-wish'
     },
     {
