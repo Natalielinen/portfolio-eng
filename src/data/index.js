@@ -10,37 +10,31 @@ import wtcImage from '../assets/wtc-image.png';
 
 export const jobs = [
     {
-        period: 'february 2022 - present',
+        period: 'февраль 2022 - настоящее время',
         company: 'Zen Code',
-        position: 'frontend developer',
-        functions: `Work on the front-end part of the project for managing enterprise processes in a team of 5 people. 
-        Main tasks: developing an interface and implementing business logic, finding and fixing bugs, filling a library 
-        of components, developing and editing modules for various forms, code refactoring.`,
+        position: 'Фронтенд разработчик',
+        functions: `Разработка системы по комплексному управлению производством`,
         stack: 'React, MobX, LESS, DevExtreme, Ant Design, JSDoc, PropTypes'
     },
     {
-        period: 'november 2021 - february 2022',
+        period: 'ноябрь 2021 - февраль 2022',
         company: 'Zen Code',
-        position: 'frontend developer intern',
-        functions: `Development of training projects in a team of trainees under the guidance of a mentor. 
-        Main tasks: development from scratch of the application interface, development and implementation of individual reusable react components.`,
+        position: 'Фронтенд-разработчик стажер',
+        functions: `Разработка учебных проектов в команде стажеров под руководством наставника.`,
         stack: 'React, React Hooks, React Context, LESS, JavaScript (ES6+)'
     },
     {
-        period: 'november 2020 - october 2021',
-        company: 'Cook-Book Project (contract, private contractor)',
-        position: 'full stack developer',
-        functions: `Development of an application for storing and managing recipes in a team of three people. 
-        Main tasks: development of the backend part of the application from scratch, participation in the development
-         of the client part of the application, setting tasks for other team members and monitoring the execution.`,
+        period: 'ноябрь 2020 - октябрь 2021',
+        company: 'Проект Кулинарный Журнал',
+        position: 'Фуллстэк разработчик',
+        functions: `разработка бекэнд части приложения с нуля, участие в разработке фронтенда приложения`,
         stack: 'React, React Hooks, Redux Toolkit, SASS, TypeScript, JavaScript (ES6+), Express, MongoDB, Mongoose, Formik, YUP'
     },
     {
-        period: 'august 2020 - october 2020',
+        period: 'август 2020 - октябрь 2020',
         company: 'KodeFirst',
-        position: 'frontend developer intern',
-        functions: `Participation in the development of ui-kit for the application in the team of interns. 
-        Main tasks: development of separate parts and components for the application, study of technologies necessary for development.`,
+        position: 'Фронтенд-разработчик стажер',
+        functions: `Помощь старшим разработчикам в верстке различных элементов интерфейса.`,
         stack: 'Pug, SASS, Webpack, JavaScript (ES6+)'
     }
 ];
@@ -49,6 +43,7 @@ export const skills = [
     'JavaScript (ES6+)',
     'TypeScript',
     'React',
+    'Next.js',
     'React Hooks',
     'React Context',
     'React Table',
@@ -59,16 +54,12 @@ export const skills = [
     'LESS',
     'SASS',
     'Formik',
+    'react-hook-form',
     'YUP',
-    'DevExtreme',
-    'Ant Design',
-    'JSDoc',
+    'Zod',
     'Webpack',
-    'PropTypes',
-    'Express',
-    'MongoDB',
-    'Mongoose',
-    'Pug'
+    'Vite',
+    'i18n',
 ]
 
 export const contactsList = [

@@ -28,6 +28,11 @@ a {
   color: $secondary-color;
 }
 
+.linkSecondary {
+  color: $secondary-color;
+  opacity: 0.75;
+}
+
 @include media-md {
   .textSecondary {
     font-size: 3rem;
