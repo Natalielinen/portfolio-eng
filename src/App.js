@@ -6,8 +6,16 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contacts from './pages/Contacts';
 import Footer from './components/Footer';
+import ReactGA from 'react-ga4';
+import usePageTracking from './hooks/usePageTracking';
+
+ReactGA.initialize("G-ED34CFZ9NH"); // твой ID
+ReactGA.send("pageview");
 
 const App = () => {
+
+    usePageTracking()
+
     return (
         <>
             <Header/>
