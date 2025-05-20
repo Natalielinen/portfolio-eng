@@ -103,7 +103,7 @@ export const projects = [
     {
         imageSrc: rbImage,
         imageAlt: 'Книга Рецептов',
-        previewLink: 'https://recipe-book-teal-five.vercel.app/',
+        previewLink: 'https://myrecipebook.ru/',
         githubLink: 'https://github.com/Natalielinen/recipe-book'
     },
     {
